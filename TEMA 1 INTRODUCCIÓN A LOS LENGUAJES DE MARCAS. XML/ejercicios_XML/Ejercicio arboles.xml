@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE Espacio>
-<Terreno>
+<!DOCTYPE Arboles>
+<Especies>
     <Arbol>
         <nombre Nombre_comun="Arce de Montpellier, Arce menor"> Acer monspessulanum </nombre>
         <Vegetacion>Caducifolio</Vegetacion>
         <Altura>De 6 a 10 metros</Altura>
         <Forma_y_estructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</Forma_y_estructura>
         <Color_en_primavera>Haz verde brillante, envés verde blanquecino</Color_en_primavera>
-        <color_en_otoño></color_en_otoño>
+        <color_en_otono></color_en_otono>
         <Resistencia_a_las_heladas>Heladas fuertes (hasta -15ºC)</Resistencia_a_las_heladas>
     </Arbol>
     <Arbol>
@@ -16,7 +16,7 @@
         <Altura>De 8 a 15 metros</Altura>
         <Forma_y_estructura>Copa irregular. Tronco principal irregular con bifurcaciones.</Forma_y_estructura>
         <Color_en_primavera></Color_en_primavera>
-        <color_en_otoño></color_en_otoño>
+        <color_en_otono></color_en_otono>
         <Resistencia_a_las_heladas></Resistencia_a_las_heladas>
     </Arbol>
     <Arbol>
@@ -25,7 +25,7 @@
         <Altura></Altura>
         <Forma_y_estructura></Forma_y_estructura>
         <Color_en_primavera>Haz verde oscuro, envés verde plateado</Color_en_primavera>
-        <color_en_otoño></color_en_otoño>
+        <color_en_otono></color_en_otono>
         <Resistencia_a_las_heladas>Heladas medias (hasta -10ºC)</Resistencia_a_las_heladas>
     </Arbol>
     <Arbol>
@@ -34,7 +34,7 @@
         <Altura>De 20 a 25 metros</Altura>
         <Forma_y_estructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</Forma_y_estructura>
         <Color_en_primavera>Haz verde medio, enves verde claro</Color_en_primavera>
-        <color_en_otoño>Ocre</color_en_otoño>
+        <color_en_otono>Ocre</color_en_otono>
         <Resistencia_a_las_heladas>Heladas fuertes (hasta -20ºC)</Resistencia_a_las_heladas>
     </Arbol>
     <Arbol>
@@ -43,7 +43,7 @@
         <Altura>En torno a 25 metros</Altura>
         <Forma_y_estructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</Forma_y_estructura>
         <Color_en_primavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</Color_en_primavera>
-        <color_en_otoño></color_en_otoño>
+        <color_en_otono></color_en_otono>
         <Resistencia_a_las_heladas>Heladas fuertes (hasta -15ºC)</Resistencia_a_las_heladas>
     </Arbol>
-</Terreno>
+</Especies>

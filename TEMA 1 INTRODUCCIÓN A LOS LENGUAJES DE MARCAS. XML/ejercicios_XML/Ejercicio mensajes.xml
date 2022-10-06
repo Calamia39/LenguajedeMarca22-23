@@ -11,10 +11,9 @@
     </destinatario>
     <asunto>Hola Bill</asunto>
     <texto>
-        <Parrafo>
-        <p>¿Hola que tal?</p>
-        <p>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.</p>
-        <p>Un saludo.</p>
+        <Parrafo>¿Hola que tal?</Parrafo>
+        <Parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.</Parrafo>
+        <Parrafo>Un saludo.</Parrafo>
         </Parrafo>
     </texto>
 

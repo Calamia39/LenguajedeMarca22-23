@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
 <!DOCTYPE biblioteca>
+<!-- Guardando informacion de una biblioteca-->
 <biblioteca>
     <ejemplar>
         <titulo>El imperio final</titulo>

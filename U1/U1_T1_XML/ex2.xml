@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cluster>
+<M_V_C>
+    <nodo_1>
+        <nombre ip="190.168.50.61">Servidor_1</nombre>
+            <Maquinas_virtuales_que_contiene>
+                <M1>
+                    <nombre>z</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M1>
+                <M2>
+                    <nombre>h</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M2>
+                <M3>
+                    <nombre>Y</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M3>
+            </Maquinas_virtuales_que_contiene>
+    </nodo_1>
+    <nodo_2>
+        <nombre ip="190.168.50.62">Servidor_2</nombre>
+            <Maquinas_virtuales_que_contiene>
+                <M1>
+                    <nombre>z</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M1>
+                <M2>
+                    <nombre>h</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M2>
+                <M3>
+                    <nombre>Y</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M3>
+            </Maquinas_virtuales_que_contiene>
+    </nodo_2>
+    <nodo_3>
+        <nombre ip="190.168.50.63">Servidor_3</nombre>
+            <Maquinas_virtuales_que_contiene>
+                <M1>
+                    <nombre>z</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M1>
+                <M2>
+                    <nombre>h</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M2>
+                <M3>
+                    <nombre>Y</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M3>
+            </Maquinas_virtuales_que_contiene>
+    </nodo_3>
+    <nodo_4>
+        <nombre ip="190.168.50.64">Servidor_4</nombre>
+            <Maquinas_virtuales_que_contiene>
+                <M1>
+                    <nombre>z</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M1>
+                <M2>
+                    <nombre>h</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M2>
+                <M3>
+                    <nombre>Y</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M3>
+            </Maquinas_virtuales_que_contiene>
+    </nodo_4>
+    <nodo_5>
+        <nombre ip="190.168.50.65">Servidor_5</nombre>
+            <Maquinas_virtuales_que_contiene>
+                <M1>
+                    <nombre>z</nombre>
+                    <sistema_operativo>Linux</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M1>
+                <M2>
+                    <nombre>h</nombre>
+                    <sistema_operativo>Ubuntu</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M2>
+                <M3>
+                    <nombre>Y</nombre>
+                    <sistema_operativo>Windows</sistema_operativo>
+                    <interfaz_de_red>
+                        <i1 fin="ethernet">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i1>
+                        <i2 fin="Wi-Fi">
+                            <ip>190.168.50.61</ip>
+                            <mac>69-20-85-3C-64-9C</mac>
+                        </i2>
+                    </interfaz_de_red>
+                </M3>
+            </Maquinas_virtuales_que_contiene>
+    </nodo_5>
+</M_V_C>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Factura [
+<!ELEMENT Panel (nombre,vuelo+,fecha)>
+<!ELEMENT vuelo (Diario?,origen,destino,horaS,horaL)*>
+    <!ATTLIST vuelo codigo ID #REQUIRED>
+    <!ATTLIST vuelo estado (C|E|R) "E">
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT Diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT horaS (#PCDATA)>
+<!ELEMENT horaL (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+]>
+
+<Panel>
+    <nombre>Aeropuerto JFK</nombre>
+    <vuelo codigo="V22" estado="R">
+        <Diario/>

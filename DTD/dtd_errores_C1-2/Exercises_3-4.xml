@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shoppingList [
+ <!ELEMENT shoppingList (item*)>
+ <!ELEMENT item EMPTY>
+ <!ATTLIST item name CDATA #REQUIRED>
+ <!ATTLIST item amount CDATA #REQUIRED>
+]>
+<shoppingList>
+ <item name="a" amount="12 liters" />
+ <item name="b" amount="3 pieces" />
+</shoppingList>

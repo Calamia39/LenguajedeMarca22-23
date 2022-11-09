@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "eje2.dtd">
+<Libro Catalogo="A">
+    <Titulo>pipo</Titulo>
+    <Seccion>primera</Seccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>legia</Tema>
+        </Capitulo>
+    </Contenido>
+    <Copyright>si</Copyright>
+</Libro>

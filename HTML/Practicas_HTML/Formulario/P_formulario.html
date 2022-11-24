@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="nombre" style="font-weight:bold; border: 1px solid black">Nombre</label>
+        <input type="text" name="nombre" id="id_nombre" placeholder="Introduzca su nombre" required> <span style="color: red">*</span>
+        <!--"span" acota un terxto para introducirle un style-->
+        <!--informacion de ayuda al usuario "placeholder"-->
+        <!--Poner un Dato predeterminado "value"-->
+        <input type="button" value="Aceptar"><!--le puede meter style color si se quiere-->
+        <input type="submit" name="Enviar" id="bt_enviar">
+        <br>
+        <br>
+        <label for="s_opciones">Seleccione su fruta favorita</label>
+        <!--"size" tabla corredera de seleccion-->
+        <!--"Multiple" seleccionar varias opciones -->
+        <select name="opciones" id="s_opciones" >
+            <option value="1" >Gomu Gomu no mi</option>
+            <option value="2">ope ope no mi</option>
+            <option value="3" selected>mera mera no mi</option>
+        <!--selected para que aparezca como predeterminado-->
+            <option value="4">bara bara no mi</option>
+            <option value="5">uo uo no mi</option>
+            <option value="6">jiki jiki no mi</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Formulario de consulta</legend>
+            <table>
+                <tr>
+                    <td><label for="t_consulta">Escriba aqui su consulta</label></td>
+                    <td><textarea name="Consulta" id="t_consulta" cols="30" rows="10" placeholder="Escriba aqui su consulta" style="font-family: Arial, Helvetica, sans-serif;"></textarea></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <label for="t_consulta">Sugerencias o consultas</label>
+            <br>
+            <textarea name="Consulta" id="t_consulta" cols="30" rows="10" placeholder="Escriba aqui su consulta" style="font-family: Arial, Helvetica, sans-serif;"></textarea>
+            <br>
+            <input type="button" value="Aceptar">
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+        <input type="radio" name="equipo" id="equipo">
+        <label for="equipo">España</label>
+        <input type="radio" name="equipo" id="equipo1">
+        <label for="equipo1">Francia</label>
+        <input type="radio" name="equipo" id="equipo2">
+        <label for="equipo2">Italia</label>
+        
+        <label for="browser">Choose your browser from the list</label>
+        <input list="">
+
+    </form>
+</body>
+</html>

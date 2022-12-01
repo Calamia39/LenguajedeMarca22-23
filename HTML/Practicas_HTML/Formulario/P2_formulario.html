@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja_de_inscripcion</title>
+</head>
+<body>
+    <fieldset style="background-color:rgba(107, 107, 107, 0.788);">
+        <legend style="background-color:rgba(255, 255, 255, 0.788);color: black;">
+            <label for="nombre" style="font-weight:bold; border: 1px solid black">Datos Personales</label>
+        </legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="nombre" style="font-weight:bold;">Nombre:</label>
+                        <br>
+                        <input type="text" name="nombre" id="id_nombre" placeholder="Introduzca su nombre" required>
+                    </td>
+                    <td>
+                        <label for="apellidos" style="font-weight:bold;">Apellidos:</label>
+                        <br>
+                        <input type="text" name="apellidos" id="id_apellidos" placeholder="Introduzca sus apellidos" required>
+                    </td>
+                    <td>
+                        <label for="dni" style="font-weight:bold;">DNI:</label>
+                        <br>
+                        <input type="text" name="dni" id="id_dni" placeholder="Introduzca su DNI" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ln" style="font-weight:bold;">Localidad Nacimiento:</label>
+                        <br>
+                        <input type="text" name="ln" id="id_ln" placeholder="Introduzca su Localidad" required>
+                    </td>
+                    <td>
+                        <label for="provincia" style="font-weight:bold;">Provincia</label>
+                        <br>
+                        <select name="opciones" id="s_opciones" >
+                            <option value="1" selected >-selecciona-</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="date" style="font-weight:bold;">Fecha de Nacimiento</label>
+                        <br>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="direccion" style="font-weight:bold; " >Dirección:</label>
+                        <br>
+                        <input type="text" name="direccion" id="id_direccion" placeholder="Introduzca su direccion" required>
+                    </td>
+                    <td>
+                        <label for="cp" style="font-weight:bold;">Código Postal:</label>
+                        <br>
+                        <input type="text" name="cp" id="id_cp" placeholder="Introduzca su codigo postal" required>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <fieldset style="background-color:rgba(207, 157, 100, 0.89);">
+        <legend style="background-color:rgba(255, 255, 255, 0.788);color: black;">
+            <label for="nombre" style="font-weight:bold; border: 1px solid black">Forma de acceso</label>
+        </legend>
+        <input type="radio" name="direct" id="direct">
+        <label for="direct">Direct</label>
+        <ul style="list-style-type:none">
+            <li>        
+                <input type="radio" name="bachiller" id="bachiller">
+                <label for="bachiller">Bachillerato LOGSE.Modalidad</label>
+                <input type="text" name="bachiller" id="id_bachiller" >
+            </li>
+            <li>
+                <input type="radio" name="bachiller_e" id="bachiller_e">
+                <label for="bachiller_e">Bachillerato Experimental</label>
+            </li>
+            <li>
+                <input type="radio" name="cou" id="cou">
+                <label for="cou">COU.opcion</label>
+                <input type="text" name="cou" id="id_cou" >
+            </li>
+            <li>
+                <input type="radio" name="FP2" id="FP2">
+                <label for="FP2">FP2</label>
+            </li>
+            <li>
+                <input type="radio" name="otros" id="otros">
+                <label for="otros">Otros(Especifique)</label>
+                <input type="text" name="otros" id="id_otros" >
+            </li>
+        </ul>
+        <input type="radio" name="pl" id="pl">
+        <label for="pl">Prueba Libre</label>
+    </fieldset>
+    <fieldset style="background-color:rgba(247, 72, 72, 0.788);">
+        <legend style="background-color:rgba(255, 255, 255, 0.788);color: black;">
+            <label for="nombre" style="font-weight:bold; border: 1px solid black">Documentos Adjuntandos</label>
+        </legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="fdni" id="fdni" required>
+                        <label for="fdni">Fotocopia DNI</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ca" id="ca" required>
+                        <label for="ca">Certificado Academia</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="ca" id="ca">
+                        <label for="ca">Otros documentos (Especifique)</label>
+                        <input type="text" name="ca" id="id_ca">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <input type="submit" value="Enviar Solicitud">
+</body>

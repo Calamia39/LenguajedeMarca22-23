@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P1_tablas</title>
+    <style>
+        td,table{
+            border: none;
+            
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th style="text-align:center">IES Alixar Login</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Usuario:</td>
+                <td><input type="text" name="nombre" id="id_nombre" required></td>
+            </tr>
+            <tr>
+                <td>Pasword:</td>
+                <td><input type="text" name="nombre" id="id_nombre" required></td>
+            </tr>
+            <tr>
+                <td> <label for="date" style="font-weight:bold;">Fecha de Nacimiento:</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Curso de Mtriculacion:</td>
+                <td>
+                    <select name="opciones" id="s_opciones" >
+                        <option value="1" selected >Primero DAW1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Role:</td>
+                <td>
+                    <ul style="list-style-type:none">
+                        <li>        
+                            <input type="radio" name="estudiante" id="estudiante">
+                            <label for="estudiante">Estudiante</label>
+                        </li>
+                        <li>        
+                            <input type="radio" name="Profesor" id="Profesor">
+                            <label for="Profesor">Profesor</label>
+                        </li>
+                        <li>        
+                            <input type="radio" name="Apoyo" id="Apoyo">
+                            <label for="Apoyo">Apoyo</label>
+                        </li>
+                        <li>        
+                            <input type="radio" name="Staff" id="Staff">
+                            <label for="Staff">Staff</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Forma de Comunicación: </td>
+                <td>
+                    <ul style="list-style-type:none">
+                        <li>        
+                            <input type="radio" name="Mail" id="Mail">
+                            <label for="Mail">Mail</label>
+                        </li>
+                        <li>        
+                            <input type="radio" name="Telefono" id="Telefono">
+                            <label for="Telefono">Telefono</label>
+                        </li>
+                        <li>        
+                            <input type="radio" name="Correo ordinario" id="Correo ordinario">
+                            <label for="Correo ordinario">Correo ordinario</label>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center" colspan="3"><input type="submit" value="Enviar"><input type="reset" value="Borrar"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>

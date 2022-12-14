@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border-width: 3px;
+            border-style: groove;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Reservation Request</h1>
+        <fieldset>
+            <legend style="font-weight:bold;color: blue;" >General information</legend>
+            <table>
+                <tr>
+                    <td>Arrival Date.</td>
+                    <td><input type="text" name="Arrival" id="id_Arrival" value="12/39/2016" required></td>                            <td style="color: red;">Arrival Date is invalid</td>
+                </tr>
+                <tr>
+                    <td>Nights:</td>
+                    <td><input type="text" name="Nights" id="id_Nights" value="three" required></td>
+                    <td style="color: red;">Nights must be number.</td>
+                </tr>
+                <tr>
+                    <td>Adults:</td>
+                    <td>
+                        <select name="adunto" id="id_adult" >
+                            <option value="1" selected >1</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Children:</td>
+                    <td>
+                        <select name="child" id="id_child" >
+                            <option value="1" selected >0</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-weight:bold;color: blue;">Preference</legend>
+            <table>
+                <tr>
+                    <td>Room Type:</td>
+                    <td>
+                        <input type="radio" name="Standard" id="Standard">
+                        <label for="Standard">Standard</label>
+                    </td>
+                    <td>                    
+                        <input type="radio" name="Business" id="Business">
+                        <label for="Business">Business</label></td>
+                    <td>
+                        <input type="radio" name="Suite" id="Suite">
+                        <label for="Suite">Suite</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bed type</td>
+                    <td>
+                        <input type="radio" name="King" id="King">
+                        <label for="King">King</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Double" id="Double">
+                        <label for="Double">Double Double</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Smoker" id="Smoker">
+                        <label for="Double">Smoker</label>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="font-weight:bold;color: blue;">Contact Information</legend>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="Nights" id="id_Nights" required></td>
+                    <td style="color: red;">Name is requred</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="Nights" id="id_Nights" value="graceyahoo.com" required></td>
+                    <td style="color: red;">Email address is invalid</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="text" name="Nights" id="id_Nights" value="123-456-789" required></td>
+                    <td style="color: red;">Phone nomber is invalid</td>
+                </tr>
+            </table>
+        </fieldset>
+        <table style="text-align: center;">
+            <tr>
+                <td><input type="submit" value="Submit Reservation"></td>
+                <td><input type="reset" value="Clear"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        td,table{
+            border-style:groove;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <thead style="text-align:center">
+        <th>TES EN RAYA</th>
+    </thead>
+    <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="imagenes/X.png" alt="X" height="115" width="115"></td>
+                <td></td>
+                <td><img src="imagenes/Check.png" alt="Check" height="115" width="115"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td><img src="imagenes/X.png" alt="X" height="115" width="115"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="imagenes/Check.png" alt="Check" height="115" width="115"></td>
+                <td></td>
+                <td><img src="imagenes/X.png" alt="X" height="115" width="115"></td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="border-style:none;">
+        <tbody>
+            <tr>
+                <td colspan="2" style="border-style:none;">Turno para jugador Uno</td>
+            </tr>
+            <tr>
+                <td style="border-style:none;">Fila</td>
+                <td style="border-style:none;">
+                    <select name="Fila" id="s_Fila" >
+                        <option value="1" selected >1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-style:none;">Columna</td>
+                <td style="border-style:none;">
+                    <select name="Columna" id="s_Columna" >
+                        <option value="1" selected >2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;border-style:none;"><input type="submit" value="Enviar"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>

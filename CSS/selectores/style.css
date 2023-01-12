@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+table{
+    margin: 0px auto;
+}
+td, table{
+    border: 2px solid rgb(5, 5, 5);
+    border-collapse: collapse;
+
+}
+thead{
+    text-align: center;
+}
+img{
+    margin: 50px;
+}
+.Primer_col{
+    background-color:red;
+    color: white;
+}
+#capacidad .gb{
+    font-size: 0.8cm;
+    text-align: center;
+    background-color:grey;
+}
+#listas ul{
+    color: red;
+}
+#five_horas {
+    background-color: yellow;
+    padding-top: 40px;padding-bottom: 40px;
+}
+[colspan="2"],[colspan="3"]{
+    background-color: blue;
+}

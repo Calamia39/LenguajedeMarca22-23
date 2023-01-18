@@ -1,0 +1,35 @@
+table,td,th{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    width: 600px;
+}
+thead th::first-letter{
+    font-size: 32px;
+}
+tbody td:first-child{
+    background-color: green;
+}
+tbody th{
+    background-color: yellow;
+}
+thead th:last-child:hover,tbody td:last-child:hover,tbody th:hover{
+    font-size: 32px;
+}
+a{
+    text-decoration:none;
+}
+a:link{
+    color: rgb(0, 255, 0);
+}
+label::after{
+    content: "*";
+    color: red;
+}
+label+input{
+    border-color: red;
+    height: 32px;
+}
+caption{
+    height: 25px;
+}

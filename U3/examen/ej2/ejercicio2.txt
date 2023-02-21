@@ -1,0 +1,5 @@
+Esto se debe a que se ha utilizado un class para mascar estos
+parrafos, lo cual se le ha podido dar en el css una apariencia distinta.
+
+Para conseguir el efecto deseado que nos pide el ejercico,
+solo modificando el html se necesita poner los parrafos faltantes con el mismo class.

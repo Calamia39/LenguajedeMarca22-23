@@ -1,0 +1,122 @@
+*
+{box-sizing: border-box;}
+/*contenedores*/
+.container{
+    background-color: aliceblue;
+}
+#cabecera{
+    background-color: rgb(236, 230, 229);
+    text-align: left;
+    color: rgba(126, 84, 57, 0.918);
+    height: 100px;
+}
+.banner{
+    overflow-y: auto;
+}
+aside{
+    overflow-y: auto;
+    float: right;
+    width: 25%;
+    margin-top: 20px;
+}
+.body{
+    overflow-y: auto;
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+}
+/* Cabecera de la pagina*/
+
+#cabecera div img{
+    float: left;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+/*Banner*/
+.banner{
+    float: left;
+    width: 100%;
+}
+.banner>a>img{
+    width: 100%;
+}
+/*body y las imagenes*/
+.body>h1{
+    margin: 0px;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body>div{
+    width: 100%;
+    height: 1px;
+    border: solid 1px rgb(173, 171, 171);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.body>p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*cuestionario*/
+aside>header{
+    color: rgb(75, 75, 75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cuestionario>ul{
+    list-style: none;
+    padding: 0px;
+    color: gray;
+}
+.cuestionario>ul li input{
+    width: 100%;
+}
+.cuestionario>ul li p{
+    margin-bottom: 5px;
+}
+#bc{
+    text-align: center;
+}
+.cuestionario>label{
+    color: rgb(75, 75, 75);
+}
+.cuestionario button{
+    background-color: purple;
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+/*imagenes*/
+article{
+    display: inline-block;
+    width: 100%;
+}
+
+article img{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+}
+article img:nth-child(1){
+    z-index: 3;
+    left: 30%;
+}
+article img:nth-child(2){
+    z-index: 2;
+    left: 45%;
+}
+article img:nth-child(3){
+    z-index: 2;
+    left: 15%;
+}
+article img:nth-child(4){
+    z-index: 1;
+    left: 58%;
+}
+article img:nth-child(5){
+    z-index: 1;
+    left: 3%;
+}

@@ -1,0 +1,33 @@
+Elemento body: Donde estan contenidos todos los textos 
+tiene la instruccion de cambiar el color de fondo de toda la pagina.
+
+Elemento h1: Es el titulo de la pagina web el cual 
+le han cambiando el color para que sea distinto y
+le han puesto un tamaño mas grande con respecto a 
+las otras partes de texto de la pagina web para
+diferenciarlo y que parezca un titulo.
+
+Elemento hr: Es el separador (lineas blancas o azules) 
+las cuales separan la parte superior, el contenido y 
+la parte inferior.
+
+Elemento P: Parrafos los cuales le han dado un tamaño mas reducido 
+y un margen.
+
+Elemento p.verse: Son los primeros versos de la pagina web 
+el cual le hemos dado un color distinto y un margen mayor
+para diferenciarlo de los demas se ha utilizado un class.
+
+a:link: le da color al link en este caso en verde.
+
+a:visited: si lo has visitado cambia a amarillo el link.
+
+a:hover: este elemento hace que cambie de color el link
+pero sin necesidad de entrar en el simplemente con pasar el 
+cursor por encima del mismo.
+
+a:active: este elemento hace que cambie el color del link cuando 
+le das accion osea lo pulsa.
+
+
+

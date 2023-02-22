@@ -1,0 +1,171 @@
+*
+{box-sizing: border-box;}
+/*Contenedores*/
+.conteiner{
+    background-color: rgb(250, 250, 250);
+}
+.header{
+    background-color: rgb(12, 33, 31);
+    overflow-y: auto;
+    height: 400px;
+}
+.body{
+    margin-left: 10%;
+}
+footer{
+    background-color: rgb(12, 33, 31);
+    overflow-y: auto;
+    height: 100px;
+}
+/*cabecera*/
+/*parte superior de la barra*/
+.header>div{
+    height: 9%;
+}
+nav{
+    margin-right: 8%;
+}
+nav div{
+    display: inline-block;
+    color:rgb(53, 172, 228);
+    float: right;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+}
+nav div:hover{
+    background-color: rgb(27, 97, 129);
+    color:rgb(53, 172, 228);
+}
+.header>div h1{
+    color: white;
+    float: left;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+/*barra*/
+#barra_header{
+    border: solid 1px rgb(53, 172, 228);
+    height: 1px;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+/*parte inferior de la barra*/
+.pb{
+    float: left;
+}
+.header div:nth-child(3) h2{
+    color: white;
+    width: 5%;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+.header div:nth-child(3) h3{
+    color: white;
+    width: 15%;
+    margin: 0px;
+    margin-left: 10%;
+}
+.header div:nth-child(3) p{
+    color: rgb(53, 172, 228);
+    margin-bottom: 0px;
+    width: 30%;
+    margin-left: 10%;
+}
+.header div:nth-child(3) img{
+    float:right;
+    margin-right: 10%;
+}
+/*body*/
+#barra{
+    border: solid 1px rgb(123, 134, 139);
+    height: 1px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+#barra:first-child{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.body div:nth-child(2){
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.body div:nth-child(3){
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.body div:nth-child(4){
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+/*barra madia body*/
+.body div:nth-child(5){
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*body medio*/
+
+.body div:nth-child(6){
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.body div:nth-child(7){
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+.body div:nth-child(8){
+    width: 20%;
+    float: left;
+    margin-right: 10%;
+}
+/*barra baja del body*/
+.body div:nth-child(9){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*baja del body*/
+.body div:nth-child(10){
+    width: 100%;
+    float: left;
+}
+.body div:nth-child(10) button{
+    float: left;
+}
+/*footer*/
+
+footer {
+    overflow-y: auto;
+    height: 100px;
+    width: 100%;
+}
+footer div:first-child{
+    margin-left: 10%;
+}
+footer div:first-child div{
+    display: inline-block;
+    color:rgb(53, 172, 228);
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+footer div:first-child div:hover{
+    background-color: rgb(27, 97, 129);
+    color:rgb(53, 172, 228);
+}
+footer div:last-child{
+    float: right;
+    margin-right: 10%;
+    margin-top: 20px;
+    color:rgb(53, 172, 228);
+}

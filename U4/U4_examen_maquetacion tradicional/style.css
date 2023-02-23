@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+/*contenedores*/
+.container{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+/*Cabecera*/
+header>div{
+    width: 15%;
+    margin: 0px;
+    float: left;
+}
+header div div:first-child h1{
+    color: black;
+    float: left;
+}
+span{
+    color: green;
+    margin-right: 5px;
+}
+header div div:nth-child(2){
+    float: left;
+    height: 10px;
+    width: 10%;
+}
+header div div:nth-child(2) p{
+    color: gray;
+    float: left;
+    border-left: solid 1px black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 5px;
+    width: 220px;
+    height: 40px;
+}
+/*parte derecha de la cabecera*/
+.contacto {
+    float: right;
+    width: 30%;
+}
+.contacto ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.contacto ul li p{
+    margin: 0px;
+
+}
+.contacto img{
+    float: left;
+}
+/*display*/
+nav{
+    background-color: rgb(46, 45, 45);
+    width: 100%;
+    height: 50px;
+}
+nav ul{
+    float: left;
+    margin: 0px;
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    border-right: solid 1px white;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+nav ul li:hover{
+    background-color: white;
+    color:rgb(46, 45, 45);
+}
+nav ul li p{
+    margin: 0px;
+    margin-right: 5px;
+}
+nav form{
+    float: right;
+    margin-top: 15px;
+}
+/*body*/
+main{
+    width: 100%;
+    height: 80%;
+}
+main img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    z-index: 2;
+}
+.caption{
+    float: left;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+    overflow-y: auto;
+    background-color: gray;
+    color: white;
+}
+.caption h2{
+    margin: 0px;
+    float: left;
+    z-index: 1;
+}
+.caption p{
+    margin: 0px;
+    float: left;
+    z-index: 1;
+}
+.caption div{
+    background-color: gray;
+    color: white;
+}
+/*footer*/
+footer{
+    float:left ;
+    width: 100%;
+}
+.pc{
+    float: left;
+    width: 30%;
+    overflow-y: auto;
+    margin-right: 10px;
+    margin-left: 5%;
+}
+.pc div{
+    float: left;
+}
+.pc img{
+    margin-top: 20px;
+}
+.pc div:nth-child(1){   
+    width: 20%;
+}
+.pc div:nth-child(2){
+    width: 80%;
+}
+
+.engranage{
+    float: left;
+    width: 30%;
+    overflow-y: auto;
+    margin-right: 10px;
+}
+.engranage div{
+    float: left;
+}
+.engranage img{
+    margin-top: 20px;
+}
+.engranage div:nth-child(1){   
+    width: 20%;
+}
+.engranage div:nth-child(2){
+    width: 80%;
+}
+.movil{
+    float: left;
+    width: 30%;
+    overflow-y: auto;
+}
+.movil img{
+    margin-top: 20px;
+}
+.movil div{
+    float: left;
+}
+.movil div:nth-child(1){   
+    width: 20%;
+}
+.movil div:nth-child(2){
+    width: 80%;
+}

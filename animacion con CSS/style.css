@@ -1,0 +1,57 @@
+body{
+    font-family: arial;
+    background: #fff;
+}
+
+.izq{
+    float: left;
+}
+
+.der{
+    float: right;
+}
+.perspectiva{
+    perspective: 1200px;
+    -webkit-perspective: 1200px;
+}
+
+.tardis{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+
+    transform: rotateX(-20deg) rotateY(-30deg);
+    -webkit-transform: rotateX(-20deg) rotateY(-30deg);
+
+    animation-name: felipegirocompleto;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes felipegirocompleto{
+    from{
+        transform: rotateX(-20deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateX(-20deg) rotateY(360deg);
+    }
+}
+.tardis .lado{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    height: 360px;
+    background-color: #3f577d;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    z-index: 1;
+}
+

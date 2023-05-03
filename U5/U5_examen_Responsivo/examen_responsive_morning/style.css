@@ -1,0 +1,200 @@
+*
+{box-sizing: border-box;}
+/*Pantalla de movil*/
+header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header img{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.fa{
+    color: white;
+    height: 30px;
+    width: 10%;
+}
+nav{
+    display: none;
+
+}
+
+.developer{
+    background-color: rgb(88, 88, 88);
+    height: 200px;
+    text-align: center;
+}
+.developer h1{
+    margin-top: 0px;
+    padding-top: 40px;
+    color: white;
+}
+.developer p{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+.datos{
+
+    height: 70px;
+    text-align: center;
+    background-color: rgb(88, 88, 88);
+}
+.datos button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.datos>form> p{
+    display: none;
+}
+.datos label,input{
+    display: none;
+}
+
+
+.teams{
+    text-align: center;
+}
+.teams p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#S_teams{
+    border: solid 1px blue;
+    color: blue;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.robot{
+    width:100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 150px ;
+}
+.robot img{
+    width: 100%;
+    grid-column: 2 / 3;
+}
+
+.texto {
+    display: flex inline-block;
+    text-align: center;
+}
+
+/* Pantallas tablet*/
+@media screen and (min-width: 576px) {
+    .datos{
+        height: 300px;
+        text-align: center;
+        background-color: rgb(88, 88, 88);
+    }
+    .datos form{
+    background-color: white;
+    width: 85%;
+    margin-left: 50px;
+    display: block;
+    }
+    .datos label{
+        display: flex;
+        padding-top: 20px;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+    .datos input{
+        width: 92%;
+        display: block;
+        padding-top: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .datos button{
+        background-color: green;
+        color: white;
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 92%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .datos>form> p{
+        display: flex;
+
+    }
+    #S_teams{
+        width: 25%;
+    }
+    .robot{
+        grid-template-rows: 210px ;
+    }
+}
+/* Pantallas ordenador*/
+@media screen and (min-width: 992px) {
+.fa{
+display: none;
+}
+header img{
+    width: 5%;
+}
+nav{
+    display: flex;
+    width: 90%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+}
+nav ul li{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.developer{
+    height: 300px;
+    width: 50%;
+}
+.datos{
+    width: 50%;
+    padding-top: 10px;
+}
+.foot{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px ;
+}
+.texto{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 200px;
+}
+.texto div:first-child{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+}
+.robot{
+    display: flex;
+}
+}

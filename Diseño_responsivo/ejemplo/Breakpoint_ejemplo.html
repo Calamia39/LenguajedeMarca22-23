@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Breakpoint</title>
+</head>
+<body>
+    <div class="container">
+        <div id="imagen">
+            <picture>
+                <source class="img1" media="(min-width: 992px)" srcset="imagenes/grande.png">
+                <source class="img2" media="(min-width: 576px)" srcset="imagenes/mediana.jpg">
+                <source class="img3" media="(max-width: 575px)" srcset="imagenes/small.jpg">
+                <img src="imagenes/small.jpg" />
+            </picture>
+        </div>
+        <div class="square1"></div>
+        <div class="square2"></div>
+    </div>
+</body>

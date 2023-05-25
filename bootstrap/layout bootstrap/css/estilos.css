@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.head{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+.main{
+    background-color: burlywood;
+    width: 100%;
+}
+#text_main{
+    text-align: center;
+}
+#img_main{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+nav header{
+    background-color: green;
+}
+nav header p{
+    margin: 0px;
+}
+
+.formulario{
+    background-color: grey;
+}
+.formulario form button{
+    background-color: green;
+}
